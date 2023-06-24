@@ -1,0 +1,121 @@
+body {
+
+
+    background: linear-gradient(196deg, rgba(60, 190, 151, 0.97) 0%, rgba(60, 190, 151, 0.00) 100%);
+    background-size: cover;
+    width: 1440px;
+    height: 1024px;
+    margin-left: 100px;
+    
+    
+}
+
+
+
+#imagem {
+    float: left;
+
+    background-image: url(imagens/login.png);
+    width: 850px;
+    height: 1024px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: 5px solid #25ffdb;
+    border-radius: 20px;
+
+
+}
+
+#medstock {
+    background-image: url(imagens/medstock.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    float: left;
+    width: 337px;
+    height: 337px;
+    margin-left: 120px;
+    margin-right: 120px;
+    margin-top: 150px;
+
+
+
+}
+
+.login {
+    float: left;
+    height: 512px;
+    width: 512px;
+
+}
+
+#email {
+
+
+    width: 315px;
+    height: 30px;
+    margin-bottom: 40px;
+    border-radius: 20px;
+    border: 2px solid var(--primary-300, #25ffdb);
+    margin-left: 120px;
+
+}
+
+
+
+
+#email_label {
+    color: rgba(52, 64, 84, 1);
+    font-size: 14px;
+    font-family: Mulish;
+    line-height: 150%;
+    margin-left: 130px;
+}
+
+#senha_label {
+    color: rgba(52, 64, 84, 1);
+    font-size: 14px;
+    font-family: Mulish;
+    line-height: 150%;
+    margin-left: 130px;
+}
+
+#senha {
+
+    border-radius: 20px;
+
+    border: 2px solid var(--primary-300, #25ffdb);
+    margin-left: 120px;
+    width: 315px;
+    height: 30px;
+}
+
+#login {
+    float: unset;
+}
+
+ul {
+    float: left;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 6px;
+    color: var(--gray-500, #667085);
+    /* Text 12/Normal/Normal */
+    font-size: 12px;
+    font-family: Mulish;
+    line-height: 150%;
+}
+
+#primeira_coluna {
+    margin-left: 100px;
+}
+
+button {
+    width: 288px;
+    height: 56px;
+    flex-shrink: 0;
+    border-radius: 98px;
+    background: #00FFA3;
+    margin-left: 130px;
+    margin-top: 20px;
+}
