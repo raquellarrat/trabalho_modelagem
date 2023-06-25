@@ -15,7 +15,7 @@ body {
 #imagem {
     float: left;
 
-    background-image: url(imagens/login.png);
+    background-image: url(/imagens/login.png);
     width: 850px;
     height: 1024px;
     background-size: cover;
@@ -27,7 +27,7 @@ body {
 }
 
 #medstock {
-    background-image: url(imagens/medstock.png);
+    background-image: url(/imagens/medstock.png);
     background-size: cover;
     background-repeat: no-repeat;
     float: left;
@@ -60,7 +60,12 @@ body {
 
 }
 
-
+#outResultado{
+    color: #fa392c;
+    font-weight: bold;
+    margin-left: 150px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
 
 
 #email_label {
@@ -110,7 +115,7 @@ ul {
     margin-left: 100px;
 }
 
-button {
+#logar {
     width: 288px;
     height: 56px;
     flex-shrink: 0;
@@ -118,4 +123,8 @@ button {
     background: #00FFA3;
     margin-left: 130px;
     margin-top: 20px;
+}
+
+:root { 
+    --invalid-field: #E74C3C;
 }

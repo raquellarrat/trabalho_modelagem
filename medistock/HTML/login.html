@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="login.css">
+    <link rel="stylesheet" href="/CSS/login.css">
 </head>
 
 <body>
@@ -27,7 +27,10 @@
             <label for="senha" class="label" id="senha_label">Senha</label>
             <br>
             <input type="password" id="senha" placeholder="********">
-
+            <br>
+            <p id="outResultado"></p>
+            <input type="button" value="Entrar" id="logar">
+            
             <ul id="primeira_coluna">
                 <li>Mínimo de 8 caracteres</li>
                 <li>Um caracter especial</li>
@@ -37,8 +40,9 @@
                 <li>Um caractere maiúsculo</li>
                 <li>Um caractere minúsculo</li>
             </ul>
-
-            <button>Entrar</button>
+            
+            <script src="/JavaScript/login.js"></script>
+            
             </section>
             
 
