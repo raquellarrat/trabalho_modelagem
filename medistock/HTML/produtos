@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/CSS/login.css">
+</head>
+
+<body>
+
+    <section>
+        <section id="imagem">
+
+        </section>
+
+        <section id="medstock"></section>
+
+        
+        <div class="produtos">
+
+            <section #produtos>
+            <input type="unidade" id="unidade" placeholder="Buscar produto ou unidade"> </input>
+            <br>
+            <a href='https://www.sololearn.com/'><button>Menu</button></a>
+            <label id = "unidade_label">Unidade 01 Juiz de Fora</label>
+            <br>
+            
+            <table border="1" id="tabela_produtos">
+                <tr>
+                    <td>ID</td>
+                    <td>Produto</td>
+                    <td>Quantidade</td>
+                    <td>Validade</td>
+                    <td>Lote</td>
+                </tr>
+            </table>
+            
+            <script src="/JavaScript/produtos.js"></script>
+            
+            </section>           
+
+            
+            
+        </div>
+
+    </section>
+
+
+</body>
+
+</html>
