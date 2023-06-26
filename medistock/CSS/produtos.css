@@ -37,3 +37,10 @@ button {
   margin-left: -80px;
   margin-top: 10px;
 }
+#produto_01{
+    border: 1px solid;
+    width: 50%;
+    border-color: #3fad8a; 
+    background-color: #3fad8a;
+    border-collapse: collapse;
+}
