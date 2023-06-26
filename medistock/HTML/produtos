@@ -35,11 +35,14 @@
                     <td>Validade</td>
                     <td>Lote</td>
                 </tr>
+                <tr>
+                    <td><input type="button" value="Produto01" id="produto_01">
+                </tr>
             </table>
             
             <script src="/JavaScript/produtos.js"></script>
             
-            </section>           
+            </section>       
 
             
             
