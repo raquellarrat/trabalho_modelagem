@@ -1,15 +1,21 @@
+//captura os campos
+var email = document.getElementById('email').value;
+var senha = document.getElementById('senha').value;
+var outResultado = document.getElementById('outResultado');
+
 //função de login
 function logar(){
+    //abre o txt
+    const fs = require('fs');
+    fs.readFile('/Bancos/BancoLogin.txt','utf8', (err,data) => {
+        if(err){
+            console.error(err);
+            return;
+        }
+        console.log(data);
+    })
     
-    //captura os camps
-    var email = document.getElementById('email');
-    var senha = document.getElementById('senha');
-    var outResultado = document.getElementById('outResultado');
 
-    //verifica se estão vazios 
-    if(email.value =='' && senha.value ==''){
-        outResultado.textContent= "Insira uma senha ou usuário válido";
-    }
 
 }
 
