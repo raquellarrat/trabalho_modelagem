@@ -15,11 +15,9 @@ body {
 #imagem {
     float: left;
 
-<<<<<<< HEAD:medistock/Public/CSS/login.css
+
     background-image: url(../imagens/login.png);
-=======
-    background-image: url(imagens/login.png);
->>>>>>> 2aa1eaddbd1c785386b9576db2b3739137dfc41e:medistock/CSS/login.css
+
     width: 850px;
     height: 1024px;
     background-size: cover;
@@ -31,11 +29,9 @@ body {
 }
 
 #medstock {
-<<<<<<< HEAD:medistock/Public/CSS/login.css
+
     background-image: url(../imagens/medstock.png);
-=======
-    background-image: url(imagens/medstock.png);
->>>>>>> 2aa1eaddbd1c785386b9576db2b3739137dfc41e:medistock/CSS/login.css
+
     background-size: cover;
     background-repeat: no-repeat;
     float: left;
