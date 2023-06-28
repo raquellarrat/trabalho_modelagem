@@ -12,14 +12,16 @@ function cadastra_produto() {
   const produtos = require("./produto");
 
   // Defining new user
-  let user = {
-    name: "New User",
-    age: 30,
-    language: ["PHP", "Go", "JavaScript"]
+  let novo = {
+    id: 30,
+    produto: "teste02",
+    quantidade: 3,
+    validade: 2025,
+    lote: "xxq"
   };
 
   // STEP 2: Adding new data to users object
-  produtos.push(user);
+  produtos.push(novo);
 
   // STEP 3: Writing to a file
   fs.writeFile("produto.json", JSON.stringify(produtos), err => {
