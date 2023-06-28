@@ -19,10 +19,10 @@ server.listen(port, () => console.log("Server at 5000"));
 // Configuiring simple express routes
 // getDir() function is used here along with package.json.pkg.assets
 
-app.use('/', express.static(getDir() + '/HTML'));
+app.use(express.static(path.join(__dirname + '/Public')));
 
 app.get('/', function(req, res) {
-    res.sendFile(getDir() + '/HTML/login.html');
+    res.sendFile(getDir() + '/Public/HTML/login.html');
 });
 
 

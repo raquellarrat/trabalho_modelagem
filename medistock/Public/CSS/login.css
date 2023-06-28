@@ -15,7 +15,7 @@ body {
 #imagem {
     float: left;
 
-    background-image: url(/imagens/login.png);
+    background-image: url(../imagens/login.png);
     width: 850px;
     height: 1024px;
     background-size: cover;
@@ -27,7 +27,7 @@ body {
 }
 
 #medstock {
-    background-image: url(/imagens/medstock.png);
+    background-image: url(../imagens/medstock.png);
     background-size: cover;
     background-repeat: no-repeat;
     float: left;

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../CSS/produtos.css">
+</head>
+    <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="cadastroitem.html">Cadastrar itens</a>
+        <a href="#">Remover itens</a>
+        <a href="#">Cadastrar funcionário</a> 
+        <a href="#">Cadastrar fornecedor</a>
+        <a href="#">Comprar itens</a>
+      </div>
+
+      <span class="span1" style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+
+        <body onload="readAll()">
+    
+            <div class="produtos">
+                <input type="unidade" id="unidade" placeholder="Buscar produto ou unidade"> </input>
+                <br>
+                <label id="unidade_label">Unidade 01 Juiz de Fora</label>
+                <br>
+            </div>
+            <div>
+                <div>
+                    <table border="1" id="tabela_produtos">
+                        <thead>
+                            <th>ID</th>
+                            <th>Produto</th>
+                            <th>Quantidade</th>
+                            <th>Validade</th>
+                            <th>Lote</th>
+                        </thead>
+                        <tbody class="data_table">    
+                        </tbody>
+                    </table>
+                    <form>
+                        <input type="cadastro" id="cadastro" placeholder="digite o nome do produto"/>
+                        <button type="button" onclick = "cadastra_produto()">Cadastrar</button>
+                    </form>
+                </div>
+            </div>
+            <script src="../JavaScript/produtos.js"></script>
+        </body>
+</html>

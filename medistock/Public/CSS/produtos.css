@@ -1,0 +1,93 @@
+body {
+    background: linear-gradient(196deg, rgba(60, 190, 151, 0.97) 0%, rgba(60, 190, 151, 0.00) 100%);
+    background-size: cover;
+    width: 1000px;
+    height: 100vh;   
+    margin: 0 auto;
+}
+
+#tabela_produtos{
+    border: 1px solid;
+    width: 50%;
+    border-color: #b7ccb9; 
+    background-color: #3fad8a;
+    border-collapse: collapse;
+}
+#unidade{
+    width: 500px;
+    height: 30px;
+    margin-bottom: 30px;
+    border-radius: 20px;
+    border: 2px solid var(--primary-300, #25ffdb);
+    margin-left: 50px;
+}
+#unidade_label{
+    width: 500px;
+    height: 30px;
+    margin-left: 15px;
+    font-size: 20px
+}
+button {
+  background-color: #d3e0d4; /* Green */
+  border: none;
+  color: rgb(10, 4, 4);
+  padding: 5px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-left: -80px;
+  margin-top: 10px;
+}
+#produto{
+    border: 1px solid;
+    width: 50%;
+    border-color: #3fad8a; 
+    background-color: #3fad8a;
+    border-collapse: collapse;
+}
+
+.sidenav {
+    position: absolute;
+    height: 100%;
+    width: 0;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #f3ebeb;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+  }
+  
+  .sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .sidenav a:hover {
+    color: #2b2626;
+  }
+  
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+
+  .span1 { 
+    position: absolute;
+    top: 10px;
+    left: 10px;
+  }
+  
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
