@@ -1,11 +1,18 @@
 body {
     background: linear-gradient(196deg, rgba(60, 190, 151, 0.97) 0%, rgba(60, 190, 151, 0.00) 100%);
     background-size: cover;
+<<<<<<< HEAD:medistock/Public/CSS/produtos.css
     width: 1000px;
     height: 100vh;   
     margin: 0 auto;
 }
 
+=======
+    width: 1440px;
+    height: 1024px;
+    margin-left: 100px;    
+}
+>>>>>>> 2aa1eaddbd1c785386b9576db2b3739137dfc41e:medistock/CSS/produtos.css
 #tabela_produtos{
     border: 1px solid;
     width: 50%;
@@ -25,7 +32,10 @@ body {
     width: 500px;
     height: 30px;
     margin-left: 15px;
+<<<<<<< HEAD:medistock/Public/CSS/produtos.css
     font-size: 20px
+=======
+>>>>>>> 2aa1eaddbd1c785386b9576db2b3739137dfc41e:medistock/CSS/produtos.css
 }
 button {
   background-color: #d3e0d4; /* Green */
@@ -39,13 +49,18 @@ button {
   margin-left: -80px;
   margin-top: 10px;
 }
+<<<<<<< HEAD:medistock/Public/CSS/produtos.css
 #produto{
+=======
+#produto_01{
+>>>>>>> 2aa1eaddbd1c785386b9576db2b3739137dfc41e:medistock/CSS/produtos.css
     border: 1px solid;
     width: 50%;
     border-color: #3fad8a; 
     background-color: #3fad8a;
     border-collapse: collapse;
 }
+<<<<<<< HEAD:medistock/Public/CSS/produtos.css
 
 .sidenav {
     position: absolute;
@@ -91,3 +106,5 @@ button {
     .sidenav {padding-top: 15px;}
     .sidenav a {font-size: 18px;}
   }
+=======
+>>>>>>> 2aa1eaddbd1c785386b9576db2b3739137dfc41e:medistock/CSS/produtos.css
