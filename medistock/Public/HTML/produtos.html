@@ -7,6 +7,18 @@
     <title>Document</title>
     <link rel="stylesheet" href="../CSS/produtos.css">
 </head>
+<header>
+    <div class="container">
+        <i class="fa-solid fa-arrow-right-from-bracket"></i>
+        <i class="fa-solid fa-envelope"></i>
+        <div class="search">
+            <i class="fa-sharp fa-solid fa-magnifying-glass"></i>
+            <input type="text" name="search" id="search" placeholder="Buscar produtos ou unidades">
+        </div>
+    </div>
+</header>
+<div class="line"></div>
+<body>
 
     <div id="mySidenav" class="sidenav">
         <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
@@ -18,17 +30,15 @@
       </div>
 
       <span class="span1" style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
-
-        <body onload="readAll()">
     
             <div class="produtos">
-                <input type="unidade" id="unidade" placeholder="Buscar produto ou unidade"> </input>
                 <br>
                 <label id="unidade_label">Unidade 01 Juiz de Fora</label>
                 <br>
             </div>
             <div>
                 <div>
+                    <br>
                     <table border="1" id="tabela_produtos">
                         <thead>
                             <th>ID</th>
@@ -36,14 +46,21 @@
                             <th>Quantidade</th>
                             <th>Validade</th>
                             <th>Lote</th>
+                            <th>Precisa reposicao</th>
                         </thead>
-                        <tbody class="data_table">    
+                        <tbody id="data_table" align="center">
+                            <tr><td>1</td><td>Amoxilina</td><td>23</td><td>12/07/2024</td><td>12d4</td><td style="color: rgb(202, 29, 29);">Sim</td></tr>
+                            <tr><td>2</td><td>Paracetamol</td><td>70</td><td>18/10/2024</td><td>1d34</td><td>Não</td></tr>
+                            <tr><td>3</td><td>Rivotril</td><td>25</td><td>15/06/2023</td><td>12d4</td><td style="color: rgb(202, 29, 29);">Sim</td></tr>
+                            <tr><td>4</td><td>Fluoxetina</td><td>109</td><td>12/07/2024</td><td>12d4</td><td>Não</td></tr>
+                            <tr><td>5</td><td>Escitalopram</td><td>56</td><td>02/09/2024</td><td>12d4</td><td>Não</td></tr>
+                            <tr><td>6</td><td>Aceclofenaco</td><td>144</td><td>05/07/2025</td><td>12d4</td><td>Não</td></tr>
+                            <tr><td>7</td><td>Amissulprida</td><td>39</td><td>12/01/2024</td><td>12d4</td><td>Não</td></tr>
+                            <tr><td>8</td><td>Diflunisal</td><td>22</td><td>14/05/2023</td><td>12d4</td><td style="color: rgb(202, 29, 29);">Sim</td></tr>
+                            <tr><td>9</td><td>Risperidona</td><td>87</td><td>08/04/2024</td><td>12d4</td><td>Não</td></tr>  
                         </tbody>
                     </table>
-                    <form>
-                        <input type="cadastro" id="cadastro" placeholder="digite o nome do produto"/>
-                        <button type="button" onclick = "cadastra_produto()">Cadastrar</button>
-                    </form>
+                    <br>
                 </div>
             </div>
             <script src="../JavaScript/produtos.js"></script>
