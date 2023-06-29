@@ -1,0 +1,88 @@
+body {
+    background: linear-gradient(196deg, rgba(60, 190, 151, 0.97) 0%, rgba(60, 190, 151, 0.00) 100%);
+    background-size: cover;
+    width: 1440px;
+    height: 1024px;
+    margin-left: 200px;
+    float: left;
+
+}
+
+
+
+#back_button {
+    background-image: url(imagens/back_button.png);
+    width: 80px;
+    height: 80px;
+    float: left;
+    background-color: transparent;
+    border: none;
+    margin-left: 24px;
+
+}
+
+#notification_button {
+    background-image: url(imagens/notification_button.png);
+    width: 80px;
+    height: 80px;
+    float: left;
+    background-color: transparent;
+    border: none;
+    margin-left: 32px;
+}
+
+#barra_pesquisa {
+    float: left;
+    width: 1000px;
+    height: 60px;
+    margin-left: 24px ;
+    border-radius: 70px;
+    margin-top: 10px;
+    border-color: #00FFA3;
+    padding: 10px;
+}
+
+#icon_button {
+    background-image: url(imagens/user_icon.png);
+    width: 80px;
+    height: 80px;
+    float: left;
+    background-color: transparent;
+    border: none;
+    margin-left: 24px;
+
+}
+
+div input {
+    float: left;
+}
+
+h1 {
+    margin-top: 184px;
+    margin-left: 136px;
+    margin-bottom: 50px;
+    color: rgb(22, 105, 77);
+    font-size: 50px;
+}
+
+
+.campo input {
+    width: 315px;
+    height: 30px;
+    margin-bottom: 40px;
+    border-radius: 20px;
+    border: 2px solid var(--primary-300, #25ffdb);
+    margin-left: 120px;
+    padding: 5px;
+}
+
+#cadastro_button {
+    width: 288px;
+    height: 56px;
+    flex-shrink: 0;
+    border-radius: 98px;
+    background: #00FFA3;
+    margin-left: 575px;
+    margin-top: 20px;
+    border-color: #00FFA3;
+}
