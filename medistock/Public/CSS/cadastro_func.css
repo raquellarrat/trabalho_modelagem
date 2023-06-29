@@ -10,16 +10,6 @@ body {
 
 
 
-#back_button {
-    background-image: url(../imagens/back_button.png);
-    width: 80px;
-    height: 80px;
-    float: left;
-    background-color: transparent;
-    border: none;
-    margin-left: 24px;
-
-}
 
 button:hover {
     cursor: pointer;
@@ -33,7 +23,7 @@ button:hover {
     float: left;
     background-color: transparent;
     border: none;
-    margin-left: 32px;
+    margin-left: 80px;
 }
 
 #barra_pesquisa {
