@@ -1,0 +1,145 @@
+* {
+        padding:0;
+        margin:0;
+        vertical-align:baseline;
+        list-style:none;
+        box-sizing: border-box;
+
+    }
+    
+
+body { 
+    background: #87d6c9;
+}
+
+
+header > .container { 
+    margin: 2%;
+    display: flex;
+    justify-content: center;
+}
+
+header > .container { 
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+header .container > i:nth-of-type(1) { 
+    padding: 9px 9px 0 0;
+    font-size: 1.7rem
+}
+
+header .container > i:nth-of-type(2) { 
+    padding: 9px 7rem 0 9px;
+    font-size: 1.7rem
+}
+
+header .container:hover { 
+    cursor: pointer;
+}
+
+header .container > .search { 
+    display: flex;
+    background-color: white;
+    border-radius: 20px;
+    width: 30rem;
+    height: 2.5rem;
+}
+
+header .container .search > i { 
+    position: relative;
+    top: 12px;
+    left: 12px;
+
+}
+
+header .container > .search > input { 
+    width: 100%;
+    height: 100%;
+    border-radius: 2rem;
+    padding: 10px 10px 10px 30px;
+    border: 0;
+}
+
+header .container > .search > input:focus { 
+    outline: none;
+}
+
+.line { 
+    width: 100%;
+    background-color: black;
+    height: 1px;
+}
+
+
+section.prod { 
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+section.prod h1 { 
+    margin: 10px 0;
+}
+
+.span { 
+    color: red;
+    margin-left: 2px;
+}
+
+.p_f{ 
+    width: 300px;
+    padding: 5px;
+    border-radius: 10px;
+    border: 0;
+    margin-bottom: 10px;
+}
+
+.f_de { 
+    display: flex;
+    justify-content: space-around;
+}
+
+.f_de > input { 
+    width: 100px;
+    padding: 4px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    border: 0;
+}
+
+textarea { 
+    width: 100%;
+    resize: none;
+    border-radius: 5px;
+    border: 0;
+}
+
+.prod_single { 
+    margin-top: 1rem;
+    display: flex;
+    gap: 2rem;
+    flex-direction: column;
+}
+
+.img { 
+    width: 300px;
+    height: 300px;
+    border: solid 1px black;
+}
+
+.prod_single > input { 
+    display: none;
+}
+
+.prod_single > label { 
+    background-color: white;
+    padding: 7px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+ 
+
+
+
